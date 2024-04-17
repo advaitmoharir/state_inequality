@@ -11,7 +11,8 @@
 library(pacman)
 p_load(tidyverse, dplyr, ggplot2, corrplot, 
        ggfortify, dendextend,clustree, cowplot,
-       fixest, purrr, mice, ggpubr, factoextra)  # installs and loads reqd. packages.
+       fixest, purrr, mice, ggpubr, factoextra,FactoMineR,
+       viridis,kableExtra)  # installs and loads reqd. packages.
 
 # Set location
 
@@ -20,3 +21,4 @@ here::i_am("state_inequality.Rproj")
 # Add files to run here
 
 
+source("02_code/01_exhibits.R")
